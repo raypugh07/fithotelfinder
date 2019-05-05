@@ -105,13 +105,14 @@ section {
   display: block;
 }
 body {
+  border: solid red;
   line-height: 1;
-  background: #babbb9;
+  background: linear-gradient(to bottom right, #7A9D96, #CAE4DB, #00303F);
+  height: 780px;
 }
 .container {
-  width: 880px;
+  width: 1080px;
   margin: auto;
-  border: solid;
 }
 ol,
 ul {
@@ -138,10 +139,75 @@ table {
 }
 html,
 body {
-  height: 100%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1 {
   font-size: 1.8rem;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Audiowide', cursive;
+  color: brown;
+}
+h1 .logo {
+  text-decoration: none;
+  color: brown;
+}
+h2 {
+  font-size: 1.8rem;
+  color: brown;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 35%;
+}
+header nav {
+  padding-left: 7%;
+}
+header nav a {
+  text-decoration: none;
+  color: brown;
+  margin: 5px 5px 5px 5px;
+}
+.top-content {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+.top-content .text {
+  padding-top: 10px;
+}
+.top-content .airplane {
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+}
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.middle-content .middleh2 {
+  display: flex;
+  justify-content: center;
+}
+.middle-content .middleimg {
+  width: 50%;
+  height: 300px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+}
+.middle-content .midimg {
+  display: flex;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+footer .footernav {
+  margin: 10px 10px 10px 10px;
+}
+footer .footernav a {
+  text-decoration: none;
+  color: brown;
 }

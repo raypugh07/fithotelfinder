@@ -32,13 +32,24 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	border:solid red;
+	//height:auto;
 	line-height: 1;
-	background:rgb(186, 187, 185);
+	background:linear-gradient(to bottom right,@mist, @morningsky,@cerulean);
+	height:780px;
+
+
+	
+
 }
+
+
 .container{
-    width:880px;
+	width:1080px;
+	
     margin:auto;
-    border:solid;
+	//border:solid;
+
 }
 
 ol, ul {
@@ -62,12 +73,117 @@ table {
     box-sizing: border-box;
 }
 
+
+
 html, body {
-	height: 100%;
+	//height: 100%;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
 
 }
 h1{
     font-size: 1.8rem;
-    font-family: 'Orbitron', sans-serif;
+	font-family: 'Audiowide', cursive;
+	color:brown;
+
+	.logo{
+		text-decoration: none;
+		color:brown;
+	}
+	
 }
+
+h2{
+	font-size:1.8rem;
+	color:brown;
+}
+
+header{
+	//border:solid red;
+	display:flex;
+	flex-direction: column;
+	padding-top:10px;
+	padding-left:35%;
+	
+
+	nav{
+		//border:solid black;
+		padding-left:7%;
+
+		a{
+			//border:solid yellow;
+			text-decoration: none;
+			color:brown;
+			margin:5px 5px 5px 5px;
+		}
+	}
+}
+
+.top-content{
+	//border:solid red;
+	display:flex;
+	flex-direction: row-reverse;
+	margin-top:20px;
+
+	.text{
+		padding-top:10px;
+	}
+
+	.airplane{
+		width:50%;
+		height:300px;
+		border-radius:10px;
+	}
+}
+
+.middle-content{
+	display:flex;
+	flex-direction: column;
+	margin-top:10px;
+
+	.middleh2{
+		//border:solid red;
+		display:flex;
+		justify-content: center;
+
+	}
+
+	.middleimg{
+		width:50%;
+		height:300px;
+		padding:5px 5px 5px 5px;
+		border-radius:10px;
+	}
+
+	.midimg{
+		display:flex;
+
+	}
+}
+
+footer{
+	display:flex;
+	justify-content: center;
+	//flex-direction: column-reverse;
+	//border:solid red;
+	margin-top:10px;
+
+	.footernav{
+		margin:10px 10px 10px 10px;
+		a{
+			text-decoration:none;
+			color:brown;
+		}
+	}
+
+	
+}
+
+
+
+//colors
+
+@morningsky:#CAE4DB;
+@honey:#DCAE1D;
+@cerulean: #00303F;
+@mist:#7A9D96;
