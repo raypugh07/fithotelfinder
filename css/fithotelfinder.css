@@ -105,7 +105,6 @@ section {
   display: block;
 }
 body {
-  border: solid red;
   line-height: 1;
   background: linear-gradient(to bottom right, #7A9D96, #CAE4DB, #00303F);
   height: 780px;
@@ -139,7 +138,7 @@ table {
 }
 html,
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: sans-serif;
 }
 h1 {
   font-size: 1.8rem;
@@ -153,6 +152,7 @@ h1 .logo {
 h2 {
   font-size: 1.8rem;
   color: brown;
+  font-family: 'Audiowide', cursive;
 }
 header {
   display: flex;
@@ -210,4 +210,39 @@ footer .footernav {
 footer .footernav a {
   text-decoration: none;
   color: brown;
+}
+h3 {
+  font-size: 1.4rem;
+  color: brown;
+}
+.hotels {
+  margin-top: 10px;
+}
+.hotels .hotelsheader {
+  display: flex;
+  justify-content: center;
+  border: 1px solid brown;
+  margin-top: 20px;
+  padding: 5px 5px 5px 5px;
+}
+.hotels .milwaukee {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.resinnaddress {
+  display: flex;
+  margin-top: 5px;
+}
+.resinnimg {
+  height: 200px;
+}
+.resinnimglink {
+  text-decoration: none;
+}
+.book {
+  display: flex;
+  justify-content: center;
+  color: brown;
+  margin-top: 5px;
 }
